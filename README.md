@@ -12,5 +12,6 @@ Todo
 ------
 * Make it pretty
 * Add tests
+* The request fails when uploading images to the tomtelizer-server but the image along with the parameters are sent OK. `result.success? == false` on line 42 in `http_client.rb`
 
 
